@@ -9,6 +9,7 @@ import eight from '../assets/svg/projects/eight.svg'
 import RecipeBook from '../assets/svg/projects/RecipeBook.png'
 import analytics from '../assets/svg/projects/analytics.png'
 import MedicalSoftware from '../assets/svg/projects/MedicalSoftware.png'
+import movie from '../assets/svg/projects/movie.png'
 
 
 export const projectsData = [
@@ -33,21 +34,21 @@ export const projectsData = [
     {
         id: 3,
         projectName: 'Pharma Application',
-        projectDesc: 'Weather forecast systems and applications predict weather conditions based on multiple parameters.',
-        tags: ['Django', 'CSS', 'Material Ui'],
-        code: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-        demo: 'https://github.com/hhhrrrttt222111/developer-portfolio',
+        projectDesc: 'Comprehensive pharma app providing detailed drug information, including usage, dosage, side effects, and interactions for informed decision-making.',
+        tags: ['ReactJS', 'NodeJS', 'Material Ui', 'MongoDB'],
+        code: 'https://github.com/shashankkurakula/pharma-app',
+        demo: 'https://pharma-app-five.vercel.app/',
         image: MedicalSoftware
     },
-    // {
-    //     id: 4,
-    //     projectName: 'Android Patient Tracker',
-    //     projectDesc: 'This project involves the development of an Android application for viewing and managing patient data.',
-    //     tags: ['Flutter', 'Firebase'],
-    //     code: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-    //     demo: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-    //     image: four
-    // },
+    {
+        id: 4,
+        projectName: 'Entertainment Hub',
+        projectDesc: 'Experience a seamless movie app built on MERN stack. Add films to wishlists, share reviews, and discover cast details. Real-time updates, engaging features, and comprehensive insights drive user retention and revenue growth.',
+        tags: ['Flutter', 'Firebase'],
+        code: 'https://github.com/shashankkurakula/entertainment-hub',
+        demo: 'https://entertainmenthub.netlify.app/',
+        image: movie
+    },
     // {
     //     id: 5,
     //     projectName: 'E-Commerce App',
