@@ -2,13 +2,16 @@
     'HTML',
     'CSS',
     'Javascript',
-    'Bootstrap',
     'React',
+    'Angular',
+    'C#',
+    'netcore',
     'MongoDB',
+    'MySql',
+    'Bootstrap',
     'Figma',
-    'Python',
-    'Django',
     'Java',
+    'Python',
 ]
 
 // Choose your skills from below. Make sure it's in the same format and spelled correctly.

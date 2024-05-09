@@ -1,4 +1,5 @@
 import React, { useContext } from 'react';
+import { Link } from 'react-router-dom';
 
 import { ThemeContext } from '../../contexts/ThemeContext';
 
@@ -24,7 +25,7 @@ function Education() {
                             course={edu.course}
                             startYear={edu.startYear}
                             endYear={edu.endYear}
-                        />
+                            />
                     ))}
                 </div>
                 <div className="education-image">

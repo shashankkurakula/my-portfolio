@@ -1,6 +1,7 @@
 import React, { useContext } from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import Fade from 'react-reveal/Fade';
+import { Link } from 'react-router-dom'
 
 import { ThemeContext } from '../../contexts/ThemeContext';
 
@@ -26,6 +27,7 @@ function ExperienceCard({id, company, jobtitle, startYear, endYear}) {
 
 
     return (
+            // <Link to="/">
         <Fade bottom>
             <div key={id} className={`experience-card ${classes.experienceCard}`}>
                 <div className="expcard-img" style={{backgroundColor: theme.primary}}>
@@ -38,6 +40,7 @@ function ExperienceCard({id, company, jobtitle, startYear, endYear}) {
                 </div>
             </div>
         </Fade>   
+                // </Link>
     )
 }
 
